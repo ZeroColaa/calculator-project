@@ -9,8 +9,9 @@ public class App {
         boolean flag = true;
 
         while (flag) {
-            int firstNumber = 0;
-            int secondNumber = 0;
+            int firstNumber;
+            int secondNumber;
+            char operator;
 
             //첫번째 피연산자
             while (true) {
@@ -42,7 +43,7 @@ public class App {
                 }
             }
 
-            char operator;
+
             //연산자
             while (true) {
                 System.out.print("연산자를 입력해주세요 (+, -, x, /): ");

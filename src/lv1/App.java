@@ -8,8 +8,8 @@ public class App {
         boolean flag = true;
 
         while (flag) {
-            int firstNumber = 0;
-            int secondNumber = 0;
+            int firstNumber;
+            int secondNumber;
 
             //첫번째 피연산자
             while (true) {

@@ -6,7 +6,7 @@ import java.util.List;
 public class Calculator {
 
     //연산 결과 저장(캡슐화)
-    private List<Integer> result;
+    private final List<Integer> result;
 
     //생성자
     public Calculator(){
@@ -14,7 +14,7 @@ public class Calculator {
     }
     //사칙연산 수행, 결과 반환 및 저장
     public int calculate(int a, int b, char operator){
-        int calcResult=0;
+        int calcResult;
 
         switch (operator){
             case '+':
